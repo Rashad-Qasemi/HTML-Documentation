@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta dicription content="Comprehensive HTML documentation for learning the basics of web development. Covers elements, attributes, headings, paragraphs, styles, and more with examples and best practices. Perfect for beginners and developers alike.">
+    <link rel="stylesheet" href="styles.css">
+    <title>HTML Documentation</title>
+  </head>
+  <body>
+      <div class="shad"></div>
+      <div class="head">
+        <header class="head-main">LEXHA CODING</header>
+      </div>
+      <nav id="navbar" class="nav-style">
+        <ul>
+          <header id="headernav">HTML Documentation</header>
+          <hr>
+          <li><a href="#HTML_HOME" class="nav-link">HTML HOME</a></li>
+          <hr>
+          <li><a href="#HTML_Introduction" class="nav-link">HTML Introduction</a></li>
+          <hr>
+          <li><a href="#HTML_Basics" class="nav-link">HTML Basics</a></li>
+          <hr>
+          <li><a href="#HTML_Editors" class="nav-link">HTML Editors</a></li>
+          <hr>
+          <li><a href="#HTML_Elements" class="nav-link">HTML Elements</a></li>
+          <hr>
+          <li><a href="#HTML_Attributes" class="nav-link">HTML Attributes</a></li>
+          <hr>
+          <li><a href="#HTML_Headings" class="nav-link">HTML Headings</a></li>
+          <hr>
+          <li><a href="#HTML_Paragraphs" class="nav-link">HTML Paragraphs</a></li>
+          <hr>
+          <li><a href="#HTML_Styles" class="nav-link">HTML Styles</a></li>
+          <hr>
+          <li><a href="#HTML_Formatting" class="nav-link">HTML Formatting</a></li>
+          <hr>
+          <li><a href="#HTML_Quotations" class="nav-link">HTML Quotations</a></li>
+        </ul>
+      </nav>
+
+    <div class="main-style">
+      <main id="main-doc">
+        <section id="HTML_HOME" class="main-section">
+          <header>HTML HOME</header>
+          <h3>Welcome to the HTML Documentation</h3>
+          <p>Welcome to the HTML Documentation, your ultimate guide to understanding and mastering the fundamental building block of the web: HTML (HyperText Markup Language).</p>
+          <h4><span class="strong-text">Who is This Guide For?</span></h4>
+          <h4><span class="normal-text">This documentation is designed for:</span><h4>
+          <ul>
+            <li><span class="strong-text">Beginners</span><span class="normal-text">: Those new to web development who want a clear, step-by-step introduction.</span></li>
+            <li><span class="strong-text">Intermediate learners</span><span class="normal-text">: Developers looking to brush up on their HTML knowledge.</span></li>
+            <li><span class="strong-text">Anyone curious</span><span class="normal-text"> about how websites are built and structured.</span></li>
+          </ul>
+          <h4><span class="strong-text">What Will You Learn?</span></h4>
+          <h4><span class="normal-text">By the end of this guide, you will:</span><h4>
+          <ol>
+            <li><span class="normal-text">Understand the basic concepts and structure of HTML.</span></li>
+            <li><span class="normal-text">Be able to create web pages with headings, paragraphs, images, and links.</span></li>
+            <li><span class="normal-text">Learn the importance of semantic HTML for accessibility and SEO.</span></li>
+            <li><span class="normal-text">Gain confidence in writing clean, maintainable HTML code.</span></li>
+          </ol>
+          <h4><span class="strong-text">How to Use This Documentation</span><h4>
+          <ul>
+            <li><span class="normal-text">The content is divided into small, easy-to-digest sections, each focusing on a specific topic.</span></li>
+            <li><span class="normal-text">Each section includes real-world examples and practice code to try out on your own.</span></li>
+            <li><span class="normal-text">Feel free to explore at your own pace, revisiting topics as needed.</span></li>
+          </ul>
+          <h4><span class="strong-text">Tools You'll Need</span><h4>
+          <h4><span class="normal-text">To follow along, you only need:</span><h4>
+          <ol>
+            <li><span class="normal-text">A simple text editor like <span class="strong-text">Notepad</span> (Windows) or <span class="strong-text">TextEdit</span> (Mac), or an <span class="strong-text">IDE</span> like <span class="strong-text">Visual Studio Code.</span></span></li>
+            <li><span class="normal-text">A modern web browser (e.g., Chrome, Firefox, Edge).</span></li>
+          </ol>
+          <h4><span class="strong-text">Example of What You'll Achieve:</span><h4>
+          <h4><span class="normal-text">By the time you finish this guide, you will be able to create a simple webpage like this:</span><h4>
+          <pre><code>
+<span class="doctype">&lt;!DOCTYPE</span> <span class="doc-html">html&gt;</span>
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;My First HTML Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+    &lt;p&gt;This is my first webpage created using HTML. It's simple, but it's the start of something amazing!&lt;/p&gt;
+    &lt;a href=&quot;https://www.example.com&quot;&gt;Learn more&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+          <h4><span class="strong-text">Output of the Example:</span><h4>
+          <p class="normal-text">When you open the above code in a browser, it will look like this:</p>
+          <h4><span class="strong-text">[My First HTML Page]</span><h4>
+          <ul>
+            <li><span class="normal-text">Welcome to My Website</span></li>
+            <li><span class="normal-text">This is my first webpage created using HTML. It's simple, but it's the start of something amazing!</span></li>
+          </ul>
+        </section>
+
+        <section id="HTML_Introduction" class="main-section">
+          <header>HTML Introduction</header>
+          <p>HTML (HyperText Markup Language) is the backbone of web development, used to structure and display content on the internet. It provides a way to describe the structure of web pages using elements (tags) enclosed in angle brackets (< >).</p>
+          <h3>Key Features of HTML:</h3>
+          <ul>
+            <li><span class="strong-text">Structure</span>: HTML organizes web content into a meaningful layout, making it accessible to users and search engines.</li>
+            <li><span class="strong-text">Tags and Elements</span>: HTML uses tags to define elements such as headings, paragraphs, images, and links.</li>
+            <li><span class="strong-text">Cross-Browser Compatibility</span>: HTML is universally supported across all modern web browsers, ensuring consistent rendering.</li>
+          </ul>
+          <h3>Example of an HTML Element:</h3>
+          <pre><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></pre>
+          <p>The <span class="high-code">&lt;p&gt;</span> tag defines a paragraph, and the content is placed between the opening <span class="high-code">&lt;p&gt;</span> and closing <span class="high-code">&lt;/p&gt;</span> tags.</p>
+          <h4>Why Learn HTML?<h4>
+          <ul>
+            <li><span class="normal-text">It’s the</span> <strong>starting point</strong> <span class="normal-text">for anyone interested in web development.</span></li>
+            <li><span class="normal-text">HTML works seamlessly with CSS (for styling) and JavaScript (for functionality) to create dynamic, visually appealing websites.</span></li>
+            <li><span class="normal-text">Knowledge of HTML helps in creating well-structured, SEO-friendly websites.</span></li>
+          </ul>
+        </section>
+
+        <section id="HTML_Basics" class="main-section">
+          <header>HTML Basics</header>
+          <p>To start building a webpage, understanding the basic structure of an HTML document is essential.</p>
+          <p><strong>Structure of an HTML Document</strong></p>
+          <p>Every HTML document follows this basic structure:</p>
+          <pre><code>
+<span class="doctype">&lt;!DOCTYPE</span> <span class="doc-html">html</span>&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;My First Webpage&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Welcome to My Webpage&lt;/h1&gt;
+    &lt;p&gt;This is my first HTML document.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+          <h4><span class="strong-text">Explanation of the Code:</span><h4>
+          <ol>
+            <li><span class="high-code">&lt;!DOCTYPE html&gt;</span>: Declares the document as HTML5, the current standard.</li>
+            <li><span class="high-code">&lt;html&gt;</span>: The root element containing all HTML code.</li>
+            <li><span class="high-code">&lt;head&gt;</span>: Includes metadata such as the page title, character encoding, and links to stylesheets or scripts.</li>
+            <li><span class="high-code">&lt;body&gt;</span>: Contains the visible content of the webpage, such as headings, paragraphs, and images.</li>
+          </ol>
+          <h4>Commonly Used Tags:<h4>
+          <p>Here are some frequently used HTML tags, along with examples:</p>
+          <ol>
+            <li>
+              <h4>Headings:<h4>
+              <pre><code>
+&lt;h1&gt;Main Title&lt;/h1&gt;
+&lt;h2&gt;Subheading&lt;/h2&gt;
+&lt;h3&gt;Smaller Subheading&lt;/h3&gt;
+</code></pre>
+            </li>
+            <li>
+              <h4>Paragraphs:<h4>
+              <pre><code>
+&lt;p&gt;This is a paragraph describing the content of the webpage.&lt;/p&gt;
+</code></pre>
+            </li>
+            <li>
+              <h4>Links:<h4>
+              <pre><code>
+&lt;a href=&quot;https://www.example.com&quot;&gt;Visit Example&lt;/a&gt;
+</code></pre>
+            </li>
+            <li>
+              <h4>Images:<h4>
+              <pre><code>
+&lt;img src=&quot;image.jpg&quot; alt=&quot;A beautiful scenery&quot;&gt;
+</code></pre>
+            </li>
+            <li>
+              <h4>Lists:<h4>
+                <ol>
+                  <li>Unordered List (Bulleted):/li>
+                  <pre><code>
+&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+                  <li>Ordered List (Numbered):</li>
+                  <pre><code>
+&lt;ol&gt;
+    &lt;li&gt;Step 1&lt;/li&gt;
+    &lt;li&gt;Step 2&lt;/li&gt;
+    &lt;li&gt;Step 3&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+                </ol>
+            </li>
+          </ol>
+          <h4>Tips for Writing HTML:</h4>
+          <ol>
+            <li>Always close your tags (e.g., <span class="high-code">&lt;p&gt;Content&lt;/p&gt;)</span>.</li>
+            <li>Use semantic tags like <span class="high-code">&lt;header&gt;</span>, <span class="high-code">&lt;footer&gt;</span>, <span class="high-code">&lt;article&gt;</span>, and <span class="high-code">&lt;section&gt;</span> to improve the readability and accessibility of your code.</li>
+            <li>Indent your code properly to maintain clarity and structure.</li>
+          </ol>
+        </section>
+
+        <section id="HTML_Editors" class="main-section">
+          <header>HTML Editors</header>
+          <p>Before you can start writing HTML, you need a tool to work with—your <i>editor</i>. Let's explore the options!</p>
+          <ol>
+            <li>
+              <h4>Basic Text Editors:</h4>
+              <ul>
+                <li>You can use default programs like <span class="strong-text">Notepad</span> (Windows) or <span class="strong-text">TextEdit</span> (Mac). They’re simple and allow you to focus on learning HTML syntax without distractions.</li>
+                <li>Save your file with the <span class="high-code">.html</span> extension, e.g., <span class="high-code">index.html</span>. This lets browsers recognize it as an HTML file.</li>
+              </ul>
+            </li>
+            <li>
+              <h4>Advanced Code Editors:</h4>
+              <ul>
+                <li>Tools like <span class="strong-text">Visual Studio Code, Sublime Text</span>, and <span class="strong-text">Atom</span> are powerful options for creating and managing HTML documents.</li>
+                <li>
+                  <i>Why choose these?</i>
+                  <ul>
+                    <li>Syntax highlighting makes the structure clear.</li>
+                    <li>Auto-completion speeds up coding.</li>
+                    <li>Extensions like "Live Server" enable real-time previews.</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h4>Pro Tip:</h4>
+              <p>Always organize your files in a dedicated project folder. For instance, have a <span class="high-code">css</span> folder for styles and an <span class="high-code">images</span> folder for assets. This structure keeps things tidy as your project grows.</p>
+            </li>
+          </ol>
+        </section>
+
+        <section id="HTML_Elements" class="main-section">
+          <header>HTML Elements</header>
+          <p>HTML elements are the <i>building blocks</i> of any webpage. They define structure and content.</p>
+          <ol>
+            <li>
+              <h4>The Anatomy of an Element:</h4>
+              <p>Every element consists of:</p>
+              <ul>
+                <li><span class="strong-text">Opening tag</span>: <span class="high-code">&lt;tagname&gt;</span></li>
+                <li><span class="strong-text">Content</span>: Text or nested elements</li>
+                <li><span class="strong-text">Closing tag</span>: <span class="high-code">&lt;/tagname&gt;</span></li>
+                <p>Example:</p>
+              </ul>
+              <pre><code>&lt;p&gt;This is an HTML element.&lt;/p&gt;</code></pre>
+            </li>
+            <li>
+              <h4>Types of Elements:</h4>
+              <ul>
+                <li><span class="strong-text">Block-level</span>: Start on a new line (e.g., <span class="high-code">&lt;div&gt;</span>, <span class="high-code">&lt;p&gt;</span>).</li>
+                <li><span class="strong-text">Inline</span>: Stay within a line (e.g., <span class="high-code">&lt;span&gt;</span>, <span class="high-code">&lt;a&gt;</span>).</li>
+              </ul>
+            </li>
+            <li>
+              <h4>Hands-on Practice:</h4>
+              <p>Add this to your file:</p>
+              <pre><code>&lt;h1&gt;Welcome to HTML&lt;/h1&gt;
+&lt;p&gt;This is a paragraph about HTML elements.&lt;/p&gt;</code></pre>
+              <p>Open the file in your browser to see it in action.</p>
+            </li>
+            <li>
+              <h4>Advanced Tip:</h4>
+              <p>Nest elements wisely. For example, wrap a <span class="high-code">&lt;strong&gt;</span> tag inside a <span class="high-code">&lt;p&gt;</span> for emphasis:</p>
+              <pre><code>&lt;p&gt;This is &lt;strong&gt;important&lt;/strong&gt; content.&lt;/p&gt;</code></pre>
+            </li>
+          </ol>
+        </section>
+
+        <section id="HTML_Attributes" class="main-section">
+          <header>HTML Attributes</header>
+          <p>Attributes are <i>extra details</i> that enhance elements by adding functionality or style.</p>
+          <ol>
+            <li>
+              <h4>Basic Structure:</h4>
+              <p>Attributes are added within the opening tag, like so:</p>
+              <pre><code>&lt;tagname attribute="value"&gt;Content&lt;/tagname&gt;</code></pre>
+              <p>Example:</p>
+              <pre><code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</code></pre>
+            </li>
+            <li>
+              <h4>Common Attributes:</h4>
+              <ul>
+                <li><span class="high-code">href</span> (for links): Specifies the URL.</li>
+                <li><span class="high-code">src</span> (for images): Points to the file location.</li>
+                <li><span class="high-code">alt</span> (for images): Provides alternative text.</li>
+              </ul>
+            </li>
+            <li>
+              <h4>Interactive Exercise:</h4>
+              <p>Add an image with an <span class="high-code">alt</span> attribute:</p>
+              <pre><code><img src="image.jpg" alt="A beautiful scenery"></code></pre>
+              <p>Test it by intentionally changing the <span class="high-code">src</span> to a non-existent file. The <span class="high-code">alt</span> text will appear instead!</p>
+            </li>
+            <li>
+              <h4>Pro Tip:</h4>
+              <p>Use attributes like <span class="high-code">id</span> or <span class="high-code">class</span> to style and manipulate elements with CSS and JavaScript later.</p>
+            </li>
+          </ol>
+        </section>
+
+        <section id="HTML_Headings" class="main-section">
+          <header>HTML Headings</header>
+          <p>Headings help organize content into <i>hierarchical sections</i>.</p>
+          <ol>
+            <li>
+              <h4>Basic Syntax:</h4>
+              <p>HTML has six heading levels, <span class="high-code">&lt;h1&gt;</span> to <span class="high-code">&lt;h6&gt;</span>. The largest is <span class="high-code">&lt;h1&gt;</span> (used for titles), and the smallest is <span class="high-code">&lt;h6&gt;</span> (used for sub-details).</p>
+              <p>Example:</p>
+              <pre><code>&lt;h1&gt;Main Title&lt;/h1&gt;
+&lt;h2&gt;Subheading&lt;/h2&gt;</code></pre>
+            </li>
+            <li>
+              <h4>Practical Use:</h4>
+              <p>Use headings logically:</p>
+              <ul>
+                <li><span class="high-code">&lt;h1&gt;</span> : Page title</li>
+                <li><span class="high-code">&lt;h2&gt;</span> : Section titles</li>
+                <li><span class="high-code">&lt;h3&gt;</span> : Subsections</li>
+              </ul>
+            </li>
+            <li>
+              <h4>Try This:</h4>
+              <p>Add headings to structure an article:</p>
+              <pre><code>&lt;h1&gt;Introduction to HTML&lt;/h1&gt;
+&lt;h2&gt;Why Learn HTML?&lt;/h2&gt;
+&lt;h3&gt;Getting Started&lt;/h3&gt;</code></pre>
+            </li>
+            <li>
+              <h4>Advanced Tip:</h4>
+              <p>Search engines (SEO) rely on heading structure. Avoid skipping levels (e.g., jumping from <span class="high-code">&lt;h1&gt;</span> to <span class="high-code">&lt;h4&gt;</span>) for better readability and ranking.</p>
+            </li>
+          </ol>
+        </section>
+
+        <section id="HTML_Paragraphs" class="main-section">
+          <header>HTML Paragraphs</header>
+          <p>Paragraphs (<span class="high-code">&lt;p&gt;</span>) are used for blocks of text.</p>
+          <ol>
+            <li>
+              <h4>Basic Syntax:</h4>
+              <pre><code>&lt;p&gt;This is a paragraph of text.&lt;/p&gt;</code>
+              </pre>
+            </li>
+            <li>
+              <h4>Line Breaks:</h4>
+              <p>Use <span class="high-code">&lt;br&gt;</span> for single-line breaks:</p>
+              <pre><code>&lt;p&gt;This is the first line.&lt;br&gt;This is the second line.&lt;/p&gt;</code></pre>
+            </li>
+            <li>
+              <h4>Interactive Task:</h4>
+              <p>Write a paragraph about your favorite hobby. Use <span class="high-code">&lt;strong&gt;</span> to highlight key points:</p>
+              <pre><code>&lt;p&gt;My favorite hobby is &lt;strong&gt;painting&lt;/strong&gt;. It helps me relax and express my creativity.&lt;/p&gt;</code>
+              </pre>
+            </li>
+            <li>
+              <h4>Pro Tip:</h4>
+              <p>Keep paragraphs short and concise for better readability, especially on smaller screens.</p>
+            </li>
+          </ol>
+        </section>
+
+        <section id="HTML_Styles" class="main-section">
+          <header>HTML Styles</header>
+          <p>Styles control the <i>appearance</i> of elements.</p>
+          <ol>
+            <li>
+              <h4>Inline Styles:</h4>
+              <pre><code>&lt;p style="color: blue; font-size: 20px;"&gt;Styled Text&lt;/p&gt;</code></pre>
+            </li>
+            <li>
+              <h4>Best Practice:</h4>
+              <ul>
+                <li>Avoid overusing inline styles.</li>
+                <li>Instead, use external or internal CSS for cleaner code.</li>
+              </ul>
+            </li>
+            <li>
+              <h4>Hands-on Challenge:</h4>
+              <p>Experiment with styles:</p>
+              <pre><code>&lt;h1 style="color: green; text-align: center;"&gt;Welcome&lt;/h1&gt;</code></pre>
+            </li>
+            <li>
+              <h4>Advanced Tip:</h4>
+              <p>Learn about CSS classes to apply styles consistently:</p>
+              <pre><code>&lt;p class="highlight"&gt;Styled with CSS class&lt;/p&gt;</code></pre>
+            </li>
+          </ol>
+        </section>
+
+        <section id="HTML_Formatting" class="main-section">
+          <header>HTML Formatting</header>
+          <p>Formatting emphasizes parts of your content.</p>
+          <ol>
+            <li>
+              <h4>Common Tags:</h4>
+              <ul>
+                <li>Bold: <span class="high-code">&lt;b&gt;</span> or <span class="high-code">&lt;strong&gt;</span></li>
+                <li>Italic: <span class="high-code">&lt;i&gt;</span> or <span class="high-code">&lt;em&gt;</span></li>
+                <li>Underline: <span class="high-code">&lt;u&gt;</span></li>
+              </ul>
+              <p>Example:</p>
+              <pre><code>&lt;p&gt;This is &lt;b&gt;bold&lt;/b&gt;, &lt;i&gt;italic&lt;/i&gt;, and &lt;u&gt;underlined&lt;/u&gt;.&lt;/p&gt;</code></pre>
+            </li>
+            <li>
+              <h4>Pro Tip:</h4>
+              <p>Use <span class="high-code">&lt;em&gt;</span> and <span class="high-code">&lt;strong&gt;</span> for better accessibility. Screen readers interpret these tags as emphasis.</p>
+            </li>
+          </ol>
+        </section>
+
+        <section id="HTML_Quotations" class="main-section">
+          <header>HTML Quotations</header>
+          <p>Quotations highlight references or statements.</p>
+          <ol>
+            <li>
+              <h4>Short Quotes:</h4>
+              <pre><code>&lt;q&gt;HTML is amazing!&lt;/q&gt;</code></pre>
+            </li>
+            <li>
+              <h4>Block Quotes:</h4>
+              <pre><code>&lt;blockquote&gt;
+  "The future belongs to those who code."
+&lt;/blockquote&gt;</code></pre>
+            </li>
+            <li>
+              <h4>Advanced Tip:</h4>
+              <p>Combine <span class="high-code">&lt;cite&gt;</span> with <span class="high-code">&lt;blockquote&gt;</span> for citations:</p>
+              <pre><code>&lt;blockquote&gt;
+  "HTML makes the web go round."
+  &lt;cite&gt;- An HTML Enthusiast&lt;/cite&gt;
+&lt;/blockquote&gt;</code></pre>
+            </li>
+          </ol>
+        </section>
+
+      </main>
+    </div>
+  </body>
+</html>

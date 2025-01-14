@@ -1,0 +1,162 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #006064;
+}
+
+html {
+  font-size: 16px;
+}
+
+.head {
+  background: linear-gradient(180deg, rgb(48, 79, 254)10%, rgb(227, 242, 253)40%, rgb(48, 79, 254)100%);
+  width: 100vw;
+  height: 80px;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 3px solid #2a237e;
+}
+
+.head-main {
+  color: #90a4ae;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 57px;
+  white-space: nowrap;
+  font-family: Merriweather, serif;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0, 0 ), -2px -2px 4px rgb(255, 255, 255);
+}
+
+#headernav {
+  white-space: nowrap;
+  font-size: 22px;
+  margin-left: -38px;
+  vertical-align: center;
+}
+
+.main-style {
+  background-color: #f9f9f9;
+  width: 80%;
+  overflow-y: auto;
+  padding-left: 40px;
+  flex-grow: 1;
+  position: relative;
+  top: 80px;
+}
+
+.nav-style {
+  background-color: #fdfdfd;
+  width: 20%;
+  overflow-y: auto;
+  border-right: 5px solid #00838f;
+  height: 520px;
+  position: sticky;
+  top: 80px;
+}
+
+body {
+  display: flex;
+  height: 100%;
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 900px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1024px) {
+  html {
+    font-size: 17px;
+  }
+}
+nav ul {
+  list-style: none;
+}
+
+nav ul a {
+  color: #006064;
+  text-decoration: none;
+}
+
+nav ul li {
+  height: 30px;
+  margin-left: -15px
+}
+
+nav ul li:last-of-type {
+  margin-bottom: 80px;
+}
+
+nav ul li:hover {
+  background-color: #90caf9;
+}
+hr {
+  height: 1px;
+  background-color: #00838f;
+  border: none;
+  margin-left: -40px
+}
+
+.strong-text {
+  font-weight: bold;
+}
+
+pre {
+  background-color: #c5cae9;
+  padding: 5px 10px 10px 10px;
+  white-space: pre-wrap;
+  border-top: 20px solid #00838f;
+  border-left: 2px solid #00838f;
+  border-right: 2px solid #00838f;
+  border-bottom: 2px solid #00838f;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px #00000060;
+}
+
+.normal-text {
+  font-weight: normal;
+}
+
+.high-code {
+  background-color: #9e9e9e;
+}
+
+.doctype {
+  color: #e64a19;
+}
+
+.doc-html {
+  color: #ff1744;
+}
+
+li {
+  font-weight: normal;
+}
+
+section {
+  margin-bottom: 100px;
+  scroll-margin-top: 100px;
+}
+section ul li, section ol li {
+  margin-bottom: 10px;
+}
+
+p, h4, li:not(nav li) {
+  font-family: sans-serif;
+}
+ header:not(#headernav):not(.head-main) {
+   color: #3d5afe;
+   text-indent: -30px;
+   font-size: 26px
+ }
+ p, section ul li, ol li {
+   line-height: 25px;
+ }
